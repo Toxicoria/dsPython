@@ -10,12 +10,12 @@ if __name__ == "__main__":
         argumento = argv[1]
 
         try:
-            x_str = input("Introduce el primer número: ")
+            x_str = input("num 1: ")
             x = float(x_str)
-            y_str = input("Introduce el segundo número: ")
+            y_str = input("num 2: ")
             y = float(y_str)
         except ValueError:
-            print("Error: Debes introducir valores numéricos.")
+            print("ingresa solo numeros.")
             exit() 
 
         match argumento:
